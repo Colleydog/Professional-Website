@@ -9,13 +9,29 @@ body{
     background-color: var(--charcoalgrey);
 }
 
-#container{
+#navAndHero{
     background-color: var(--baltic);
-    height: 700px;
+    height:auto;
+    padding: 15px;
     width: max;
     border-bottom-left-radius:  25%;
     border-bottom-right-radius:  25%;
    
+}
+
+ul{
+    list-style-type:none;
+    color:var(--seashell);
+    overflow: hidden;
+}
+
+li{
+    float:left;
+    padding: 16px;
+}
+
+hr{
+    border-top: 8px solid var(--bluekoi);
 }
 
 #headShot{
@@ -29,12 +45,16 @@ body{
     filter:drop-shadow(10px);
 }
 
-ul{
-    list-style-type:none;
-    color:var(--seashell);
-    overflow: hidden;
+#navAndHero > h1{
+    text-align: center;
+    color: var(--seashell);
 }
-li{
-    float:left;
-    padding: 16px;
+
+#skillsAndLanguages{
+    margin-top: 100px;
+}
+
+#skillsAndLanguages{
+    color: var(--seashell);
+    
 }
