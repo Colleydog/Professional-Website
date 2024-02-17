@@ -1,0 +1,40 @@
+:root{
+    --baltic:#222831;
+    --charcoalgrey:#393E46;
+    --bluekoi:#6797ca;
+    --seashell:#EEEEEE;
+}
+
+body{
+    background-color: var(--charcoalgrey);
+}
+
+#container{
+    background-color: var(--baltic);
+    height: 700px;
+    width: max;
+    border-bottom-left-radius:  25%;
+    border-bottom-right-radius:  25%;
+   
+}
+
+#headShot{
+    padding-top: 25px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 100%;
+    filter:brightness(80%);
+    filter:drop-shadow(10px);
+}
+
+ul{
+    list-style-type:none;
+    color:var(--seashell);
+    overflow: hidden;
+}
+li{
+    float:left;
+    padding: 16px;
+}
