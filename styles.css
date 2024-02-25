@@ -15,8 +15,7 @@ body{
     padding: 15px;
     width: max;
     border-bottom-left-radius:  25%;
-    border-bottom-right-radius:  25%;
-   
+    box-shadow: 0px 0px 10px 0px var(--bluekoi);
 }
 
 ul{
@@ -49,13 +48,30 @@ hr{
 #navAndHero > h1{
     text-align: center;
     color: var(--seashell);
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #skillsAndLanguages{
-    margin: 100px 0px 0px 100px;
+        color: var(--seashell);    
+
 }
 
-#skillsAndLanguages{
-    color: var(--seashell);
-    
+#skillsAndLanguages h2{
+    margin: 100px 0px 50px 100px;
 }
+
+.row {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    column-gap: auto;
+}
+
+.column {
+    width: 50%; /* Each column takes up one-third of the available width */
+}
+
