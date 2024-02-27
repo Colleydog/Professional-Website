@@ -17,6 +17,8 @@ body{
     padding: 15px;
     border-bottom-left-radius:  25%;
     box-shadow: 0px 0px 10px 0px var(--bluekoi);
+    padding-bottom: 5%;
+    
 }
 
 ul{
@@ -39,6 +41,7 @@ hr{
     height:200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
     display: block;
     border-radius: 100%;
     filter:brightness(80%);
@@ -61,6 +64,7 @@ p{
 }
 
 #skillsAndLanguages{
+    margin: 10% 5% 10% 5%;
     color: var(--seashell);    
 
 }
@@ -72,15 +76,21 @@ p{
     column-gap: auto; 
 }
 
+
+
 #aboutMe{
     display: flex;
-    margin: 25px 150px 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 
 #pic{
     background-color: aqua;
+    width: 200%;
 }
 
-#info{
-    background-color: blue;
+#aboutMeInfo{
+    padding-left: 15% ;
+    padding-right: 15% ;
 }
