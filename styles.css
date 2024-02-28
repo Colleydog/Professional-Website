@@ -14,10 +14,10 @@ body{
 #navAndHero{
     background-color: var(--baltic);
     height:auto;
-    padding: 15px;
+
     border-bottom-left-radius:  25%;
-    box-shadow: 0px 0px 10px 0px var(--bluekoi);
-    padding-bottom: 5%;
+    box-shadow: 0px 0px 35px 0px var(--bluekoi);
+    padding-bottom: 15%;
     
 }
 
@@ -37,11 +37,10 @@ hr{
 }
 
 #headShot{
-    padding-top: 25px;
     height:200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 10%;
     display: block;
     border-radius: 100%;
     filter:brightness(80%);
@@ -64,16 +63,16 @@ p{
 }
 
 #skillsAndLanguages{
-    margin: 10% 5% 10% 5%;
-    color: var(--seashell);    
-
+    margin: 25% 10% 15% 10%;
+    color: var(--seashell);   
+    
 }
 
 .row {
     display: grid; 
     grid-template-columns: auto auto;
     text-align: center;
-    column-gap: auto; 
+    column-gap: 15%; 
 }
 
 
